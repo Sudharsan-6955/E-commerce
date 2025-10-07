@@ -1,3 +1,7 @@
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+});
+
 $(document).ready(function () {
   $("a").on("click", function (event) {
     if (this.hash !== "") {
